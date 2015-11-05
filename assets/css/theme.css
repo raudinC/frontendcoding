@@ -1,0 +1,32 @@
+html, body {
+    position: relative;
+    color: #333;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+    background-color: #edeff1;
+    color: #4facb4;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+section a {
+    color: #e73e51;
+    font-size: 20px;
+}
